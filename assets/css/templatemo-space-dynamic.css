@@ -232,6 +232,40 @@ body {
   letter-spacing: 0.25px;
 }
 
+
+
+/* Portfolio Styles */
+
+#portfolio {
+  padding-top: 10em;
+  min-height: 90vh;
+}
+
+#portfolio #portfolio-filters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-filters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 5px 20px;
+  line-height: 20px;
+  font-size: 12px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: #ffd1d8;
+  transition: all .3s ease-in-out;
+}
+
+#portfolio #portfolio-filters li:hover, #portfolio #portfolio-filters li.filter-active {
+  background: #FE3F40;
+  color: #fff;
+}
+
 /* 
 ---------------------------------------------
 header
