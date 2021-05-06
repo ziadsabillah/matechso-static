@@ -1159,6 +1159,7 @@ Portfolio
 
 .our-portfolio .showed-content img {
   max-width: 100px;
+  object-fit: contain;
 }
 
 
