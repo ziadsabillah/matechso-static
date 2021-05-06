@@ -1162,6 +1162,10 @@ Portfolio
   object-fit: contain;
 }
 
+.our-blog .benefit-list li {
+  padding: .4em;
+}
+
 
 /* 
 ---------------------------------------------
