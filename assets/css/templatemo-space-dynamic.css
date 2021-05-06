@@ -1159,7 +1159,9 @@ Portfolio
 
 .our-portfolio .showed-content img {
   max-width: 100px;
+  object-fit: contain;
 }
+
 
 
 /* 
@@ -1172,7 +1174,7 @@ Blog
   position: relative;
   margin-top: 80px;
   padding-top: 120px;
-  min-height: 900px;
+  min-height: 1000px;
 }
 
 .our-blog .section-heading h2 {
@@ -1255,7 +1257,7 @@ Blog
 .our-blog .left-image .info .main-blue-button {
   position: absolute;
   bottom: -80px;
-  left: 0;
+  left: 25%;
 }
 
 .our-blog .right-list {
@@ -1295,6 +1297,18 @@ Blog
 .our-blog .right-list .right-image img {
   width: 250px;
   border-radius: 20px;
+}
+
+.our-blog .benefit-list li {
+  padding: .4em;
+}
+
+.our-blog .benefit-list li i {
+  color: rgb(255,77,30);
+}
+
+.our-blog  span {
+  color: rgb(255,77,30);
 }
 
 
