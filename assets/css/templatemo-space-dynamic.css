@@ -1172,6 +1172,7 @@ Blog
   position: relative;
   margin-top: 80px;
   padding-top: 120px;
+  min-height: 900px;
 }
 
 .our-blog .section-heading h2 {
@@ -1204,10 +1205,17 @@ Blog
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 20px;
-  margin-right: 75px;
+  margin-right: 36px;
   position: absolute;
   margin-top: -100px;
   padding: 30px;
+}
+
+
+.our-blog .left-image img:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.356); 
+  transform: translateY(-10px);
+  transition: transform 1s;
 }
 
 .our-blog .left-image ul li {
@@ -1226,6 +1234,15 @@ Blog
   color: #ff4d61;
   font-size: 16px;
   margin-right: 8px;
+}
+
+.our-blog .left-image ul li img {
+  height: 15px;
+  width: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+  transition: transform 1s ease-in-out;
+
 }
 
 .our-blog .left-image h4 {
