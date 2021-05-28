@@ -271,16 +271,26 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
+  background-color: #03a4ed !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  padding: 12px 25px !important;
+  border-radius: 23px !important;
+  letter-spacing: 0.25px !important;
 }
 
+.nav-item.main-blue-button a {
+  background-color: #eee !important;
+  color: #000 !important;
+}
+
+.nav-item.main-blue-button a.active {
+  background-color: #03a4ed !important;
+  color: #fff !important;
+  
+}
 .main-blue-button.btn-vitrine a {
   background: hsla(97, 100%, 17%, 1);
 
@@ -1354,10 +1364,32 @@ Blog
   min-height: 1000px;
 }
 
+.our-blog .filter-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.our-blog .filter-wrapper ul li {
+  height: 60px;
+  border-radius: 5px;
+  margin: 1em;
+}
 .our-blog .section-heading h2 {
   margin-right: 180px;
   text-transform: uppercase;
 }
+
+
+.our-blog .tab-content .tab-pane {
+  display: none;
+}
+
+.our-blog .tab-content .tab-pane.active {
+  display: flex;
+}
+
+
+
 
 .our-blog .top-dec {
   text-align: right;
