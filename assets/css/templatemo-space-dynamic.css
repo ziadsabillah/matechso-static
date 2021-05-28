@@ -1361,7 +1361,7 @@ Blog
   position: relative;
   margin-top: 80px;
   padding-top: 120px;
-  min-height: 1000px;
+  min-height: 1100px;
 }
 
 .our-blog .filter-wrapper {
@@ -1518,6 +1518,14 @@ Blog
   padding: .4em;
 }
 
+.our-blog .benefit-list li.disabled {
+  color: grey;
+}
+
+
+.our-blog .benefit-list li.disabled i{
+  color: grey;
+}
 .our-blog .benefit-list li i {
   color: rgb(255, 77, 30);
 }
